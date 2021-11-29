@@ -20,15 +20,6 @@
             </div>
         </div>
 
-        {{-- Getting Started Guide --}}
-        <div class="my-12 py-12 max-w-full mx-auto text-center bg-blue-50 rounded-md">
-            <div class="text-3xl font-extrabold">Need help using the library resources?</div>
-            <div class="text-lg font-light mt-2">Download our guide below or watch our Getting Started webinars <a href="" class="text-blue-500 hover:underline">here</a>.</div>
-            <div class="block mt-4">
-                <a href="" class="bg-blue-700 text-white rounded-md px-3 py-2 shadow-sm">Download Guide</a>
-            </div>
-        </div>
-
         <div class="my-12 py-12 max-2-full mx-auto">
             <div class="grid grid-cols-4 gap-4">
                 <div class="col-span-4 text-3xl font-extrabold mx-auto mb-4">How can we assist you?</div>
