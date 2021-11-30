@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('web.home');
 });
 
+Route::get('issues', function () {
+    return view('web.newsletter');
+})->name('newsletter');
+
 Route::get('about-us', function () {
     return view('web.about-us');
 })->name('about-us');
@@ -27,11 +31,11 @@ Route::get('databases', function () {
     return view('web.databases');
 })->name('databases');
 
-Route::get('/docs', function () {
+Route::get('docs', function () {
     return view('web.docs');
 })->name('docs');
 
-Route::get('/contact', function () {
+Route::get('contact', function () {
     return view('web.contact');
 })->name('contact');
 

@@ -4,9 +4,9 @@ namespace App\Http\Livewire\Resource;
 
 use App\Models\Resource;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 use Livewire\Component;
 use Livewire\WithFileUploads;
-use Illuminate\Support\Str;
 
 class Create extends Component
 {
@@ -31,6 +31,10 @@ class Create extends Component
                 'resource' => 'mimes:pdf'
             ]);
             $this->resource->storeAs('newsletter', $this->resource->getClientOriginalName());
+
+            // Create thumbnail and store it
+            $res = new Resource();
+            $thumbnail_name = $res->getThumbnail('newsletter/'.$this->resource->getClientOriginalName());
         }
 
         switch ($this->type) {
@@ -39,6 +43,7 @@ class Create extends Component
                 break;
             case 'newsletter':
                 $url = 'newsletter/' . $this->resource->getClientOriginalName();
+                $thumbnail = ($thumbnail_name == true) ? 'newsletter/' . $thumbnail_name : null;
                 break;
             case 'link':
                 $url = $this->resource;
@@ -53,7 +58,8 @@ class Create extends Component
             Resource::create([
                 'type' => $this->type,
                 'name' => $this->name,
-                'url' => $url
+                'url' => $url,
+                'thumbnail' => $thumbnail,
             ]);
             session()->flash('flash.banner', 'The resource was successfully created!');
             session()->flash('flash.bannerStyle', 'success');

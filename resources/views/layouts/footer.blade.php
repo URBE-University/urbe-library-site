@@ -23,6 +23,7 @@
                     <a href="{{ route('about-us') }}" target="_blank" class="block text-gray-200 hover:text-white hover:underline">&rightarrow; Print and Photocopy</a>
                     <a href="https://lirn.net/" target="_blank" class="block text-gray-200 hover:text-white hover:underline">&rightarrow; Virtual Library Access</a>
                     <a href="http://dspace.urbe.university/" target="_blank" class="block text-gray-200 hover:text-white hover:underline">&rightarrow; Academic Reporisoty</a>
+                    <a href="{{ route('newsletter') }}" target="_blank" class="block text-gray-200 hover:text-white hover:underline">&rightarrow; Monthly Newsletter</a>
                 </div>
             </div>
 
