@@ -20,6 +20,7 @@ class Resource extends Model
 
     public function getThumbnail($resource)
     {
+
         $pdf = new Pdf($resource);
         $imageName = Str::uuid();
         $thumbnail = $pdf->saveImage(Storage::path('newsletter/'.$imageName.'.png'));

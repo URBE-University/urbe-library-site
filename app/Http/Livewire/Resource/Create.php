@@ -34,7 +34,7 @@ class Create extends Component
 
             // Create thumbnail and store it
             $res = new Resource();
-            $thumbnail_name = $res->getThumbnail('newsletter/'.$this->resource->getClientOriginalName());
+            $thumbnail_name = $res->getThumbnail(Storage::path('newsletter/'.$this->resource->getClientOriginalName()));
         }
 
         switch ($this->type) {
