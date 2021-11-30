@@ -3,7 +3,7 @@
 
         {{-- Banner --}}
         <div class="grid grid-cols-2 gap-4">
-            <div class="col-span-2 sm:col-span-1 flex flex-col justify-center text-left">
+            <div class="col-span-2 sm:col-span-1 flex flex-col justify-center text-left py-28 sm:py-4">
                 <div class="text-3xl font-semibold text-gray-700">Library Services</div>
                 <div class="text-4xl font-black mt-2"><span class="text-blue-700">Books</span> and <span class="text-blue-700">Learning Resources</span></div>
                 <form action="http://catalog.urbe.university/cgi-bin/koha/opac-search.pl" method="get" target="_blank">
