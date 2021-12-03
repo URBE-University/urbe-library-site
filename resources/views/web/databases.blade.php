@@ -23,7 +23,7 @@
                 </svg>
                 <div class="text-lg font-bold">Florida Electronic Library</div>
                 <div class="mt-2"></div>
-                <a target="_blank" href="Florida Electronic Library" class="text-blue-600 hover:underline text-sm">Visit site</a>
+                <a target="_blank" href="https://www.flelibrary.com/" class="text-blue-600 hover:underline text-sm">Visit site</a>
             </div>
 
             <div class="col-span-4 sm:col-span-2 lg:col-span-1">
