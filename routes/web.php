@@ -39,6 +39,10 @@ Route::get('contact', function () {
     return view('web.contact');
 })->name('contact');
 
+Route::get('in-class-resources', function () {
+    return view('web.in-class-resources');
+})->name('in-class-resources');
+
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
     Route::get('/dashboard', function () {
