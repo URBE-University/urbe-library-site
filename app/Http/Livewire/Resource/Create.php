@@ -40,6 +40,7 @@ class Create extends Component
         switch ($this->type) {
             case 'file':
                 $url = 'documents/' . $this->resource->getClientOriginalName();
+                $thumbnail = null;
                 break;
             case 'newsletter':
                 $url = 'newsletter/' . $this->resource->getClientOriginalName();
@@ -47,10 +48,12 @@ class Create extends Component
                 break;
             case 'link':
                 $url = $this->resource;
+                $thumbnail = null;
                 break;
 
             default:
                 $url = null;
+                $thumbnail = null;
                 break;
         }
 
