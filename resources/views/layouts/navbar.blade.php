@@ -15,6 +15,7 @@
                 <a href="{{ route('databases') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Databases</a>
                 <a href="{{ route('docs') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Training & Docs</a>
                 <a href="{{ route('about-us') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">About</a>
+                <a href="https://outlook.office365.com/owa/calendar/LibraryInstructionBooking@urbe.university/bookings/" target="_blank" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Remote Faculty Instruction</a>
                 <a href="{{ route('contact') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Contact</a>
             </div>
 
@@ -45,6 +46,9 @@
                             </x-jet-dropdown-link>
                             <x-jet-dropdown-link href="{{ route('about-us') }}">
                                 {{ __('About Us') }}
+                            </x-jet-dropdown-link>
+                            <x-jet-dropdown-link target="_blank" href="https://outlook.office365.com/owa/calendar/LibraryInstructionBooking@urbe.university/bookings/">
+                                {{ __('Remote Faculty Instruction') }}
                             </x-jet-dropdown-link>
                             <x-jet-dropdown-link href="{{ route('contact') }}">
                                 {{ __('Contact Us') }}
