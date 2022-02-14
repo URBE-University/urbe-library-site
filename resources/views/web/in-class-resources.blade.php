@@ -79,7 +79,7 @@
                     <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="http://dspace.urbe.university/home/" target="_blank" title="This site includes different Communities and Collections with  electronic resources such as : Electronic Books, Articles,  Ebusiness Cases, Open Access Databases, etc. The students and instructors can use these resources for their courses.">URBE University digital repository</a>
                 </li>
                 <li>
-                    <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="https://library.urbe.university/files/Students-and-Faculties-Library-Orientation.pdf" target="_blank" title="This presentation shows the services, collections, databases, resources that can be used by students and instructors.">Library orientation presentation</a>
+                    <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="https://library.urbe.university/docs" target="_blank" title="Take a look at our online resources to help you better navigate the library platforms.">Library Training Resources</a>
                 </li>
             </ul>
 
