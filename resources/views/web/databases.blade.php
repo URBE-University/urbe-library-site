@@ -57,6 +57,15 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
                 </svg>
+                <div class="text-lg font-bold">Open Educational Resources</div>
+                <div class="mt-2">Open Educational Resources (OER) are teaching and learning materials that you may freely use and reuse at no cost, and without needing to ask permission. Unlike copyrighted resources, OER have been authored or created by an individual or organization that chooses to retain few, if any, ownership rights. From a single point of access in OER Commons, you can search, browse, and evaluate resources in OER Commons' growing collection of over 50,000 high-quality OER.</div>
+                <a target="_blank" href="https://www.oercommons.org/" class="text-blue-600 hover:underline text-sm">Visit site</a>
+            </div>
+
+            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                </svg>
                 <div class="text-lg font-bold">EBSCO Open Dissertations</div>
                 <div class="mt-2">The channels by which today’s scholars discover relevant content are varied and wide. In this increasingly complex environment, institutions are seeking strategies to make their students’ theses and dissertations as widely visible and cited as possible...</div>
                 <a target="_blank" href="https://biblioboard.com/opendissertations/" class="text-blue-600 hover:underline text-sm">Visit site</a>
