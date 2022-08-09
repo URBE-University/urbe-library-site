@@ -43,15 +43,15 @@
 
             <div class="grid grid-cols-2 gap-8">
                 <div class="col-span-2 md:col-span-1">
-                    <iframe class="rounded-xl shadow" width="100%" height="315" src="https://www.youtube.com/embed/GlW4BX6MKoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe class="rounded-xl shadow" width="100%" height="315" src="https://www.youtube.com/embed/CvRnB3dLNnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                     <div class="text-base mt-2 text-gray-600">
-                        Getting started with LIRN
+                        Basic search in ProQuest
                     </div>
                 </div>
                 <div class="col-span-2 md:col-span-1">
-                    <iframe class="rounded-xl shadow" width="100%" height="315" src="https://www.youtube.com/embed/UfZnaYYWvt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe class="rounded-xl shadow" width="100%" height="315" src="https://www.youtube.com/embed/nOzsCuysLeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                     <div class="text-base mt-2 text-gray-600">
-                        Finding digital books with Ebook Central
+                        ProQuest Advanced Search Tutorial
                     </div>
                 </div>
 
@@ -69,6 +69,9 @@
             </div>
 
             <ul>
+                <li>
+                    <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="https://www.lirn.net/tools-and-training/lirn-resources/lirnportal/">LIRN Resources - Learn how to use the LIRN Portal</a>
+                </li>
                 <li>
                     <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="https://library.urbe.university/" target="_blank" title="This link gives access to: URBE University library webpage, in this site the students can find the important resources such as: Library Catalog, Training Resources, Reference Service, APA information etc.">URBE University library website</a>
                 </li>
