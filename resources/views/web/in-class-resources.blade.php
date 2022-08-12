@@ -79,7 +79,7 @@
                     <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="http://catalog.urbe.university/" target="_blank" title="The Catalog of URBE University Library allows access to the bibliographic records of the resources that you can find into the library.">URBE University library catalog</a>
                 </li>
                 <li>
-                    <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="http://dspace.urbe.university/home/" target="_blank" title="This site includes different Communities and Collections with  electronic resources such as : Electronic Books, Articles,  Ebusiness Cases, Open Access Databases, etc. The students and instructors can use these resources for their courses.">URBE University digital repository</a>
+                    <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="http://dspace.urbe.university:4000/home" target="_blank" title="This site includes different Communities and Collections with  electronic resources such as : Electronic Books, Articles,  Ebusiness Cases, Open Access Databases, etc. The students and instructors can use these resources for their courses.">URBE University digital repository</a>
                 </li>
                 <li>
                     <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="https://library.urbe.university/docs" target="_blank" title="Take a look at our online resources to help you better navigate the library platforms.">Library Training Resources</a>

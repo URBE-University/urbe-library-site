@@ -31,23 +31,24 @@
             <div class="col-span-4 md:col-span-2 lg:col-span-1">
                 <div class="text-lg font-semibold tracking-wide">{{ __("Our University") }}</div>
                 <ul class="mt-4 text-sm font-light space-y-1">
-                    <li><a href="" class="hover:underline">{{ __("About Us") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("Admissions") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("Academics") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("Events") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("Careers") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("University Catalog") }}</a></li>
+                    <li><a target="_blank" href="https://urbe.university/about-us/" class="hover:underline">{{ __("About Us") }}</a></li>
+                    <li><a target="_blank" href="https://admissions.urbe.university" class="hover:underline">{{ __("Admissions") }}</a></li>
+                    <li><a target="_blank" href="https://urbe.university/academics" class="hover:underline">{{ __("Academics") }}</a></li>
+                    <li><a target="_blank" href="https://urbe.university/events" class="hover:underline">{{ __("Events") }}</a></li>
+                    <li><a target="_blank" href="mailto:studentservices@urbe.university" class="hover:underline">{{ __("Careers") }}</a></li>
+                    <li><a target="_blank" href="https://urbe.university/wp-content/uploads/2021/05/UNIVERSITY-CATALOG-2021-vol-II-v1.2.pdf" class="hover:underline">{{ __("University Catalog") }}</a></li>
                 </ul>
             </div>
 
             <div class="col-span-4 md:col-span-2 lg:col-span-1">
                 <div class="text-lg font-semibold tracking-wide">{{ __("Student Links") }}</div>
                 <ul class="mt-4 text-sm font-light space-y-1">
-                    <li><a href="" class="hover:underline">{{ __("Open LMS") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("E-mail Login") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("Student Portal") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("Tuition Payments") }}</a></li>
-                    <li><a href="" class="hover:underline">{{ __("English Language Program") }}</a></li>
+                    <li><a target="_blank" href="https://urbeuniversity.mrooms.net" class="hover:underline">{{ __("Open LMS") }}</a></li>
+                    <li><a target="_blank" href="http://email.urbe.university" class="hover:underline">{{ __("E-mail Login") }}</a></li>
+                    <li><a target="_blank" href="https://studentsupportal.com" class="hover:underline">{{ __("Student Portal") }}</a></li>
+                    <li><a target="_blank" href="https://library.urbe.university" class="hover:underline">{{ __("Library") }}</a></li>
+                    <li><a target="_blank" href="https://myfs.urbe.university" class="hover:underline">{{ __("Tuition Payments") }}</a></li>
+                    <li><a target="_blank" href="https://elp.urbe.university" class="hover:underline">{{ __("English Language Program") }}</a></li>
                 </ul>
             </div>
 
