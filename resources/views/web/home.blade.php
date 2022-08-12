@@ -4,8 +4,8 @@
         {{-- Banner --}}
         <div class="grid grid-cols-2 gap-4">
             <div class="col-span-2 sm:col-span-1 flex flex-col justify-center text-left py-28 sm:py-4">
-                <div class="text-3xl font-semibold text-gray-700">Library Services</div>
-                <div class="text-4xl font-black mt-2"><span class="text-[#073260]">Books</span> and <span class="text-[#073260]">Learning Resources</span></div>
+                <div class="text-3xl font-semibold text-[#073260]">Library Services</div>
+                <div class="text-4xl font-black mt-2"><span class="text-[#01adeb]">Books</span> and <span class="text-[#01adeb]">Learning Resources</span></div>
                 <form action="http://catalog.urbe.university/cgi-bin/koha/opac-search.pl" method="get" target="_blank">
                     <div class="mt-8">
                         <input type="search" placeholder="Search the library catalog" name="q" class="border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1">
