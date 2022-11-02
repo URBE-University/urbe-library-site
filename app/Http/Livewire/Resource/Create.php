@@ -21,14 +21,14 @@ class Create extends Component
 
         if ($this->type == 'file') {
             $this->validate([
-                'resource' => 'mimes:pdf'
+                'resource' => 'mimes:pdf|max:1024000'
             ]);
             $this->resource->storeAs('documents', $this->resource->getClientOriginalName());
         }
 
         if ($this->type == 'newsletter') {
             $this->validate([
-                'resource' => 'mimes:pdf'
+                'resource' => 'mimes:pdf|max:1024000'
             ]);
             $this->resource->storeAs('newsletter', $this->resource->getClientOriginalName());
 
